@@ -1,0 +1,15 @@
+{
+  "name": "Activity Monitor",
+  "version": "0.1.0",
+  "description": "Monitors your activity on page",
+  "permissions": ["storage", "tabs", "notifications", "activeTab", "idle"],
+  "host_permissions": ["*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Activity Monitor",
+    "default_popup": "index.html"
+  },
+  "manifest_version": 3
+}
